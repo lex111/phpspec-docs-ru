@@ -1,7 +1,7 @@
-Quick Start
-===========
+Быстрый старт
+=============
 
-Create a ``composer.json`` file:
+Создайте файл ``composer.json``:
 
 .. code-block:: js
 
@@ -15,21 +15,21 @@ Create a ``composer.json`` file:
         "autoload": {"psr-0": {"": "src"}}
     }
 
-Follow the instructions on this page to install composer: `<https://getcomposer.org/download/>`_.  
+Следуйте инструкциям на этой странице, чтобы установить Composer: `<https://getcomposer.org/download/>`_.
 
-Install **phpspec** with composer:
+Установите **phpspec** с помощью Composer:
 
 .. code-block:: bash
 
     php composer.phar install
 
-Start writing specs:
+Начните написание спецификаций:
 
 .. code-block:: bash
 
     bin/phpspec desc Acme/Calculator
 
-Learn more from :doc:`the documentation <manual/introduction>`.
+Узнайте больше из :doc:`документации <manual/introduction>`.
 
 .. toctree::
    :hidden:
@@ -55,5 +55,5 @@ Learn more from :doc:`the documentation <manual/introduction>`.
    cookbook/extensions
    cookbook/wrapped-objects
 
-.. ready: no
+.. ready: yes
 .. revision: dae50e5501f0bd990748f5710a61ac9089255dff
